@@ -38,6 +38,20 @@
 	--sidebar-border: oklch(0.929 0.013 255.508);
 	--sidebar-ring: oklch(0.704 0.04 256.788);
 }
+
+@theme {
+	--color-cc-yellow: #fff20f;
+	--color-cc-teal: #447880;
+	--color-cc-teal-light: #a4dbc5;
+	--color-cc-lime: #eae074;
+	--color-cc-lime-light: #ecf1e2;
+	--color-cc-lime-dark: #b5bc7f;
+	--color-cc-blue: #82abd7;
+	--color-cc-blue-light: #d9e9f5;
+	--color-cc-red: #c55d40;
+	--color-cc-red-light: #d57f5e;
+}
+
 /* 
 .dark {
   --background: oklch(0.129 0.042 264.695);
@@ -84,7 +98,7 @@
 	--color-card-foreground: var(--card-foreground);
 	--color-popover: var(--popover);
 	--color-popover-foreground: var(--popover-foreground);
-	--color-primary: var(--primary);
+	--color-primary: var(--color-cc-teal);
 	--color-primary-foreground: var(--primary-foreground);
 	--color-secondary: var(--secondary);
 	--color-secondary-foreground: var(--secondary-foreground);
