@@ -1,15 +1,11 @@
 <svelte:options customElement="my-component" />
 
 <script lang="ts">
-  export let name: string = 'World';
+  export let name: string = "World";
 </script>
 
-<style>
-  p {
-    color: blue;
-    font-family: sans-serif;
-    outline: solid 1px red;
-  }
-</style>
+<p class="text-red-500 font-bold p-5 bg-amber-200">Hello, {name}!</p>
 
-<p>Hello, {name}!</p>
+<style>
+  @import "./tailwind.css";
+</style>
